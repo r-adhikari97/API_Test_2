@@ -9,7 +9,6 @@ import joblib
 from memory_profiler import profile
 
 
-@profile
 class SMS_APIView(APIView):
     """ Handles Insert Operation """
 
