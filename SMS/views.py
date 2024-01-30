@@ -6,8 +6,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from rest_framework.response import Response
 from rest_framework import status
 import joblib
+from memory_profiler import profile
 
 
+@profile
 class SMS_APIView(APIView):
     """ Handles Insert Operation """
 
